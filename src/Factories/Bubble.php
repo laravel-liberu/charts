@@ -12,7 +12,7 @@ class Bubble extends Chart
     use When;
 
     private bool $autoRadius;
-    private int $radiusLimit;
+    private readonly int $radiusLimit;
     private int $maxRadius;
 
     public function __construct()
@@ -97,7 +97,7 @@ class Bubble extends Chart
                 'label' => $label,
                 'borderColor' => $this->color(),
                 'backgroundColor' => $this->hex2rgba($this->color()),
-                'hoverBackgroundColor' => $this->hex2rgba($this->color(), 0.6),
+                'hoverBackgroundColor' => $this->hex2rgba($this->color()),
                 'data' => $this->dataset($dataset),
                 'datalabels' => empty($this->datalabels) ? [
                     'backgroundColor' => $this->color(),

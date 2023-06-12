@@ -7,7 +7,7 @@ use LaravelEnso\Charts\Enums\Charts;
 
 class Line extends Chart
 {
-    private $fill;
+    private bool $fill;
 
     public function __construct()
     {

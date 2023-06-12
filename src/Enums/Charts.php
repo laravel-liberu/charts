@@ -4,10 +4,10 @@ namespace LaravelEnso\Charts\Enums;
 
 class Charts
 {
-    public const Bubble = 'bubble';
-    public const Doughnut = 'doughnut';
-    public const Line = 'line';
-    public const Pie = 'pie';
-    public const PolarArea = 'polarArea';
-    public const Radar = 'radar';
+    final public const Bubble = 'bubble';
+    final public const Doughnut = 'doughnut';
+    final public const Line = 'line';
+    final public const Pie = 'pie';
+    final public const PolarArea = 'polarArea';
+    final public const Radar = 'radar';
 }
