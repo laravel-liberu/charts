@@ -8,10 +8,10 @@ class AppServiceProvider extends ServiceProvider
 {
     public function boot()
     {
-        $this->mergeConfigFrom(__DIR__.'/../config/charts.php', 'enso.charts');
+        $this->mergeConfigFrom(__DIR__.'/../config/charts.php', 'liberu.charts');
 
         $this->publishes([
-            __DIR__.'/../config' => config_path('enso'),
-        ], ['charts-config', 'enso-config']);
+            __DIR__.'/../config' => config_path('liberu'),
+        ], ['charts-config', 'liberu-config']);
     }
 }

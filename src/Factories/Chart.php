@@ -25,7 +25,7 @@ abstract class Chart
         $this->axes = ['xAxes' => ['x' => []], 'yAxes' => ['y' => []]];
         $this->data = [];
         $this->datasetConfig = [];
-        $this->options = Config::get('enso.charts.options');
+        $this->options = Config::get('liberu.charts.options');
         $this->labels = [];
         $this->datalabels = [];
         $this->gridlines = false;
@@ -165,7 +165,7 @@ abstract class Chart
 
         $rgb = array_map('hexdec', $hex);
         $rgba = implode(',', $rgb);
-        $opacity = Config::get('enso.charts.fillBackgroundOpacity');
+        $opacity = Config::get('liberu.charts.fillBackgroundOpacity');
 
         return "rgba({$rgba},{$opacity})";
     }
@@ -179,7 +179,7 @@ abstract class Chart
 
     protected function colors(): array
     {
-        return $this->colors ??= array_values(Config::get('enso.charts.colors'));
+        return $this->colors ??= array_values(Config::get('liberu.charts.colors'));
     }
 
     protected function scales(): self
