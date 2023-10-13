@@ -1,11 +1,11 @@
 <?php
 
-namespace LaravelEnso\Charts\Factories;
+namespace LaravelLiberu\Charts\Factories;
 
 use Illuminate\Support\Collection;
-use LaravelEnso\Charts\Enums\Charts;
-use LaravelEnso\Helpers\Services\Decimals;
-use LaravelEnso\Helpers\Traits\When;
+use LaravelLiberu\Charts\Enums\Charts;
+use LaravelLiberu\Helpers\Services\Decimals;
+use LaravelLiberu\Helpers\Traits\When;
 
 class Bubble extends Chart
 {

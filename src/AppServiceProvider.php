@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\Charts;
+namespace LaravelLiberu\Charts;
 
 use Illuminate\Support\ServiceProvider;
 

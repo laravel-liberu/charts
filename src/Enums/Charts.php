@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\Charts\Enums;
+namespace LaravelLiberu\Charts\Enums;
 
 class Charts
 {

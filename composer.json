@@ -23,13 +23,13 @@
     },
     "autoload": {
         "psr-4": {
-            "LaravelEnso\\Charts\\": "src/"
+            "LaravelLiberu\\Charts\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "LaravelEnso\\Charts\\AppServiceProvider"
+                "LaravelLiberu\\Charts\\AppServiceProvider"
             ],
             "aliases": {}
         }

@@ -1,8 +1,8 @@
 <?php
 
-namespace LaravelEnso\Charts\Factories;
+namespace LaravelLiberu\Charts\Factories;
 
-use LaravelEnso\Charts\Enums\Charts;
+use LaravelLiberu\Charts\Enums\Charts;
 
 class Doughnut extends Circles
 {

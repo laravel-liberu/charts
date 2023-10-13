@@ -12,7 +12,7 @@ This package can work independently of the [Liberu](https://github.com/laravel-e
 
 The front end implementation that utilizes this api is present in the [enso-ui/charts](https://github.com/enso-ui/charts) package.
 
-For live examples and demos, you may visit [laravel-enso.com](https://www.laravel-enso.com)
+For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.uk)
 
 [![Watch the demo](https://laravel-enso.github.io/charts/screenshots/bulma_cap002_thumb.png)](https://laravel-enso.github.io/charts/videos/bulma_demo_01.webm)
 
@@ -20,7 +20,7 @@ For live examples and demos, you may visit [laravel-enso.com](https://www.larave
 
 ### Installation, Configuration & Usage
 
-Be sure to check out the full documentation for this package available at [docs.laravel-enso.com](https://docs.laravel-enso.com/backend/charts.html)
+Be sure to check out the full documentation for this package available at [docs.liberu.co.uk](https://docs.liberu.co.uk/backend/charts.html)
 
 ### Contributions
 

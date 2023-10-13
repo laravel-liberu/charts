@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\Charts\Factories;
+namespace LaravelLiberu\Charts\Factories;
 
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Config;

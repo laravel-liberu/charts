@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\Charts\Factories;
+namespace LaravelLiberu\Charts\Factories;
 
 use Illuminate\Support\Collection;
-use LaravelEnso\Charts\Enums\Charts;
+use LaravelLiberu\Charts\Enums\Charts;
 
 class Radar extends Chart
 {
